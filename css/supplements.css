@@ -1,0 +1,25 @@
+#hasSupplement .blockContent,
+#otherSupplements .blockContent {
+	white-space: nowrap;
+	overflow: hidden;
+}
+#hasSupplement .blockContent .item {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+#otherSupplements .blockContent .item {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#hasSupplement .blockContent .item:first-child,
+#otherSupplements .blockContent .item:first-child {
+	margin-left: 0;
+}
+#hasSupplement .blockContent .item:last-child,
+#otherSupplements .blockContent .item:last-child {
+	margin-right: 0;
+}
+#hasSupplement .blockContent .item {
+	width: 116px;
+	height: 116px;
+}
